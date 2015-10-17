@@ -3,7 +3,13 @@
     "command": "gulp",
     "isShellCommand": true,
     "args": [
-        
+        "--no-color"
     ],
-    "tasks": []
+    "tasks": [
+		{
+			"taskName": "default",
+			"isBuildCommand": true,
+			"showOutput": "always"
+		}
+	]
 }
