@@ -3,12 +3,17 @@
 namespace ngWindow {
 	export class ngWindowDirective implements ng.IDirective {
 		controller = ngWindowController;
+		
+		controllerAs = "vm";
+		
+		bindToController = {
+			
+		};
+		
+		templateUrl = "src/ngWindow.html";
 	}
 
-	var ngWindowDirectiveFactory = () => {
+	export var ngWindowDirectiveFactory = () => {
 		return new ngWindowDirective();
 	}
-
-	angular.module("sampleApp")
-		.directive("test", ngWindowDirectiveFactory);
 }
