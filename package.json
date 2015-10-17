@@ -1,0 +1,12 @@
+{
+  "name": "jquery-gallery-typescript",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "typescript": "^1.6.2"
+  }
+}
