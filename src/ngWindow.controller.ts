@@ -1,7 +1,7 @@
 "use strict";
 
-namespace ngWindow {
-	export class ngWindowController {
+namespace NgWindow {
+	export class NgWindowController {
 		a = 123;
 	}
 }

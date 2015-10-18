@@ -1,0 +1,4 @@
+"use strict";var NgWindow;!function(n){var i=function(){function n(){this.a=123}return n}();n.NgWindowController=i}(NgWindow||(NgWindow={}));
+"use strict";var NgWindow;!function(n){var t=function(){function t(){this.controller=n.NgWindowController,this.controllerAs="vm",this.bindToController={},this.templateUrl="src/ngWindow.html"}return t}();n.NgWindowDirective=t,n.ngWindowDirectiveFactory=function(){return new t}}(NgWindow||(NgWindow={}));
+"use strict";var app=angular.module("sampleApp",[]);app.directive("test",NgWindow.ngWindowDirectiveFactory);
+//# sourceMappingURL=maps/main-b343a45574.js.map

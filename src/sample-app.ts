@@ -1,5 +1,5 @@
 "use strict";
 
-var app = angular.module("sampleApp", []);
+const app = angular.module("sampleApp", []);
 
-app.directive("test", ngWindow.ngWindowDirectiveFactory);
+app.directive("test", NgWindow.ngWindowDirectiveFactory);
